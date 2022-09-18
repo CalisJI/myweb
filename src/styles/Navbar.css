@@ -1,0 +1,31 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
+}
+.rightSide {
+    list-style-type: none;
+    background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.items {
+    margin-right: 20px;
+    font-size: 20px;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+.logo-img {
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    
+}
