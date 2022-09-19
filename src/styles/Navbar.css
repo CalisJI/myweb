@@ -5,6 +5,16 @@
     height: 80px;
     background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
 }
+.leftSide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
 .rightSide {
     list-style-type: none;
     background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
