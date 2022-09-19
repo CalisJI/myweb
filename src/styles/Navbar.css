@@ -3,7 +3,7 @@
     top: 0;
     width: 100%;
     height: 80px;
-    background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
+    background: rgba(0, 0, 0, 0.404)
 }
 .leftSide {
     position: absolute;
@@ -14,10 +14,11 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    z-index: 1;
 }
 .rightSide {
     list-style-type: none;
-    background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
+    background: #2a2b36;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -29,6 +30,9 @@
     font-size: 20px;
     color: #f1f1f1;
     cursor: pointer;
+}
+.itemss {
+    position: relative;
 }
 .logo-img {
     float: left;

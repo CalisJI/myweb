@@ -7,18 +7,30 @@
     left: 0;
     /* background:linear-gradient(45deg, rgb(223, 17, 171), rgb(61, 61, 180)); */
     background: rgba(0, 0, 21, .2);
+    background-image: url("/src/assets/side1.png");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
   }
   .Link {
-    margin-top: 15px;
-    padding: 8px 8px 8px 32px;
+    margin-top: 25px;
+    padding: 8px 18px 8px 10px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 35px;
+    color: whitesmoke;
     display: block;
+    font-weight: normal;
     transition: 0.3s;
+    transition: text-shadow 0.5s;
+  }
+  .Link:hover{
+    cursor: pointer;
+    /* background :rgba(33, 3, 43, 0.521); */
+    text-shadow: rgba(155, 19, 201, 0.521)22px 15px 3px; 
+    font-weight: bolder;
   }
   .logo {
     position: fixed;
