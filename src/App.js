@@ -24,10 +24,10 @@ function App() {
       <Router>
         <SideBar ref={sideBar_ref} Command={Excute}/>
         
-        <div id='page-wrap' style={{paddingLeft:Opensidebar}}>
+        <div id='page-wrap' style={{marginLeft:Opensidebar}}>
           <Navbar btnonclick={()=>sideBar_ref.current.Opensidebar()}/>
           {/* <button onClick={()=>sideBar_ref.current.Opensidebar()}>Click Test</button> */}
-          <Routes>
+          <Routes >
             <Route index element = {<Home/>}/>
             <Route path='/about' element = {<About/>}/>
             <Route path='/contact' element = {<Contact/>}/>

@@ -5,11 +5,13 @@
   font-family: system-ui, "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   background: #181924;
   
+  
 }
 #page-wrap {
+  position: relative;
   text-align: center;
   overflow: auto;
-  transition: padding-left .5s; 
+  transition: margin-left .5s; 
   /* If you want a transition effect */
 }
 .App-logo {

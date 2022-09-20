@@ -12,7 +12,7 @@
     margin: 6px 0;
     transition: 0.4s;
   }
-  .container:hover{
+  .container:hover,.container:active {
     animation: btn-menu-spin infinite 1.5s linear;
   }
 

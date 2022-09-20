@@ -8,11 +8,9 @@ function Navbar(props) {
     <div className="navbar ">
       <div className="leftSide">
         <ButtonSidebar className="itemss" Open={()=>props.btnonclick()}/>
-      </div>
 
-      <div className="rightSide">
-        
-        {/* <Link to="/" className="items">
+        <div className="rightSide " >
+        <Link to="/" className="items">
           Home
         </Link>
         <Link to="/project" className="items">
@@ -24,8 +22,11 @@ function Navbar(props) {
         <Link to="/contact" className="items">
           {" "}
           Contact
-        </Link> */}
+        </Link>
       </div>
+      </div>
+
+     
     </div>
   );
 }

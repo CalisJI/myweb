@@ -7,7 +7,7 @@
     left: 0;
     /* background:linear-gradient(45deg, rgb(223, 17, 171), rgb(61, 61, 180)); */
     background: rgba(0, 0, 21, .2);
-    background-image: url("/src/assets/side1.png");
+    background-image: url("/src/assets/side_logo2.jpg");
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;
@@ -29,7 +29,7 @@
   .Link:hover{
     cursor: pointer;
     /* background :rgba(33, 3, 43, 0.521); */
-    text-shadow: rgba(155, 19, 201, 0.521)22px 15px 3px; 
+    text-shadow: rgba(8, 56, 24, 0.616)22px 15px 3px; 
     font-weight: bolder;
   }
   .logo {
